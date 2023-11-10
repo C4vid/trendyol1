@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    
+    background-color: #faf9f9;
+}
+
+header {
+    background-color: #fff;
+    padding: 0 350px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header-top_links > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+
+    & a {
+        text-decoration: none;
+        color: #000;
+        font-size: .75rem;
+    }
+}
+
+.header-mid {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 210px;
+    height: 35.75px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.search-input {
+    width: 100%;
+    margin: 0 40px;
+    flex: 1;
+    & input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #d9d9d9;
+        border-radius: 6px;
+    }
+
+    & input:focus {
+        outline: none;
+    }
+
+
+}
+
+.user-menu  {
+
+    & ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+
+        & li {
+
+            & a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}
+.header-bottom {  
+    display: flex;
+
+}
+    
+.header-bottom_links {
+    & ul {
+        margin-top: 9px;
+        font-size: 14px;
+        margin-left: 7px;
+        display: flex;
+        list-style: none;
+        gap: 2.64rem;
+
+
+        & li {
+
+            & a {
+                text-decoration: none;
+                color: #000; 
+                & span {
+                    font-size: 12px;
+                    color: #fff;
+                    padding: 0 2px;
+                    background-color: #dc2e2d;
+                    flex: 8px;
+                    border-radius: 9px;
+                }
+            }
+        }
+    }
+}
+
+
+.mainmenu {
+    justify-content: center;        
+    display: flex;
+    margin: 2rem 27rem;
+
+    
+    & img{
+        width: 68px;
+        height: 68px;
+        object-fit: contain;
+    }
+    & a {
+        text-decoration: none;
+        color: #000;  
+        margin-left: px;
+    }
+}
+
+.flashbar {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+        & img {
+            width: 285px;
+            height: 43px;
+        }
+}
